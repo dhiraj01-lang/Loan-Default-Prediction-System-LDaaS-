@@ -1,0 +1,8 @@
+.card-img-overlay h1 {
+    font-weight: bold;
+    color: #fff;
+}
+.card-img-overlay p {
+    color: #fff;
+    font-size: 1.2rem;
+}

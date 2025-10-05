@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card text-white">
+    <img src="{{ url_for('static', filename='images/banner.jpg') }}" class="card-img" alt="Banner">
+    <div class="card-img-overlay d-flex flex-column justify-content-center text-center" style="background: rgba(0,0,0,0.5);">
+        <h1 class="card-title display-4">Loan Default Prediction System (LDaaS)</h1>
+        <p class="card-text lead">A Loan Default Prediction System that leverages Excel, Python, Machine Learning algorithms, and Tableau to analyze borrower data and predict the probability of loan default. The solution helps financial institutions identify high-risk borrowers, reduce NPAs, and make data-driven lending decisions.</p>
+    </div>
+</div>
+
+<div class="mt-5">
+    <h2 class="mb-3">Key Features</h2>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Data preprocessing & feature engineering (income, DTI, credit history, etc.)</li>
+        <li class="list-group-item">Model training using Logistic Regression, Random Forest, Decision Tree, XGBoost, and SVM</li>
+        <li class="list-group-item">Model evaluation using accuracy, precision, recall, F1-score, ROC-AUC</li>
+        <li class="list-group-item">Interactive Tableau dashboards for trend analysis & borrower risk profiling</li>
+        <li class="list-group-item">Final outcome: Best-performing ML model + Business Insights</li>
+    </ul>
+</div>
+{% endblock %}
